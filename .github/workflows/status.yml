@@ -33,7 +33,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
       - name: Lint Code Base
-        uses: docker://github/super-linter:v2.2.2@sha256:440bc28f423a1c497b2ef72a18b180d92708c0943355e53189cc98605d808bf8
+        uses: docker://github/super-linter:v4.5.0@sha256:d25b313068ea3cdb7c2cbbf5f4ed24466982112f71bb371e25ac9a96bc31fb44
         env:
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_JSON: true
